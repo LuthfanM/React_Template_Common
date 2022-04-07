@@ -1,0 +1,23 @@
+{
+    "title": "dashboard menu",
+    "data": [
+        {
+            "data_title": "clients",
+            "icon": "local_mall",
+            "color": "red",
+            "destination": "/dashboard/active-loan"
+        },
+        {
+            "data_title": "total.active.loan.requested",
+            "icon": "store_front",
+            "color": "red",
+            "destination": "/dashboard/loan-requested"
+        },
+        {
+            "data_title": "overdue.loan.requested",
+            "icon": "download",
+            "color": "red",
+            "destination": "/dashboard/remaining-loan"
+        }
+    ]
+}

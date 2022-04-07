@@ -1,0 +1,55 @@
+{
+    "title": "Customer Inquiry",
+    "component": "grid_group",
+    "fields_row": {
+      "data1": [
+        {
+          "component": "typography",
+          "label": "Date Range",
+          "id": "frd1-t1",
+          "value": "false"
+        },
+        {
+          "component": "datepicker",
+          "label": "Date Range",
+          "id": "frd1-t2",
+          "format": "MM/dd/yyyy",
+          "value": ""
+        }
+      ],
+      "data2": [
+        {
+          "component": "typography",
+          "label": "KTP/NPWP No.",
+          "id": "frd2-t1",
+          "value": "false"
+        },
+        {
+          "component": "textfield",
+          "label": "KTP/NPWP No.",
+          "id": "frd2-t2",
+          "value": ""
+        }
+      ],
+      "data3": [
+        {
+          "component": "typography",
+          "label": "Customer Type",
+          "id": "frd3-t1",
+          "value": "false"
+        },
+        {
+          "component": "select",
+          "label": "Date Range",
+          "id": "frd3-t2",
+          "type": "default",
+          "multiple": "false",
+          "value": "",
+          "options":{
+            "opt1": "New",
+            "opt2": "Existing"            
+          }
+        }
+      ]
+    }
+  }

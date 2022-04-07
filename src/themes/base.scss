@@ -1,0 +1,24 @@
+@import 'colours';
+
+.page {
+ // min-height: -webkit-fill-available;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+
+  .page-container {
+    flex: auto;
+    display: flex;
+    align-items: center;
+  }
+
+  .page-container-full-height {
+    margin-top: 10px;
+    margin-bottom: 15px;
+    background-color: aqua;
+    flex: auto;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+  }
+}
